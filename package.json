@@ -18,6 +18,7 @@
   "license": "MIT",
   "description": "API de estudo aplicando os princípios de Clean Architecture e Domain-Driven Design (DDD) com TypeScript",
   "devDependencies": {
+    "@faker-js/faker": "^9.2.0",
     "@rocketseat/eslint-config": "^2.2.2",
     "@types/node": "^22.7.9",
     "eslint": "^8.57.1",
