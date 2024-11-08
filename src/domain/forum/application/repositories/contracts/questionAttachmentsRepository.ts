@@ -2,4 +2,5 @@ import { QuestionAttachment } from '@/domain/forum/enterprise/entities/questionA
 
 export interface IQuestionAttachmentsRepository {
   findManyByQuestionId(questionId: string): Promise<QuestionAttachment[]>
+  deleteManyByQuestionId(questionId: string): Promise<void>
 }
