@@ -14,4 +14,9 @@ export class UniqueEntityId {
   toValue() {
     return this.value
   }
+
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  equals(id: UniqueEntityId) {
+    return id.toValue() === this.value
+  }
 }
