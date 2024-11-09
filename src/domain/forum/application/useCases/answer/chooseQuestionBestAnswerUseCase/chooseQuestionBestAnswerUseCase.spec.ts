@@ -4,7 +4,7 @@ import { makeAnswer } from 'test/factories/makeAnswer'
 import { makeQuestion } from 'test/factories/makeQuestion'
 import { InMemoryAnswerRepository } from 'test/repositories/InMemoryRepository/InMemoryAnswersRepository/InMemoryAnswersRepository'
 import { InMemoryQuestionsRepository } from 'test/repositories/InMemoryRepository/InMemoryQuestionsRepository/InMemoryQuestionsRepository'
-import { NotAllowedError } from '../../errors/NotAllowedError/NotAllowedError'
+import { NotAllowedError } from '@/core/errors/errors/NotAllowedError/NotAllowedError'
 import { InMemoryAnswerAttachmentRepository } from 'test/repositories/InMemoryRepository/InMemoryAnswerAttachmentsRepository/InMemoryAnswerAttachmentsRepository'
 import { InMemoryQuestionAttachmentRepository } from 'test/repositories/InMemoryRepository/InMemoryQuestionAttachmentsRepository/InMemoryQuestionAttachmentsRepository'
 

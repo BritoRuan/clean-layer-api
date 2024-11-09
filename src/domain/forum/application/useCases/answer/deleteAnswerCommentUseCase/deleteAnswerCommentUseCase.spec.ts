@@ -2,7 +2,7 @@ import { UniqueEntityId } from '@/core/entities/uniqueEntityId'
 import { DeleteAnswerCommentUseCase } from './deleteAnswerCommentUseCase'
 import { makeAnswerComment } from 'test/factories/makeAnswerComments'
 import { InMemoryCommentAnswerRepository } from 'test/repositories/InMemoryRepository/InMemoryAnswerCommentsRepository/InMemoryAnswerCommentsRepository'
-import { NotAllowedError } from '../../errors/NotAllowedError/NotAllowedError'
+import { NotAllowedError } from '@/core/errors/errors/NotAllowedError/NotAllowedError'
 
 let inMemoryAnswerCommentsRepository: InMemoryCommentAnswerRepository
 let sut: DeleteAnswerCommentUseCase
